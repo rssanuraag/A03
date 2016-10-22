@@ -1,0 +1,74 @@
+  .navgation {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px ;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+.video{
+width: 50%;
+margin: 0 auto; }
+
+li {
+    float: left;
+    
+    
+}
+.z{
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#myPic{
+
+	width:180px;
+	height:180px;
+	border-radius: 50%;
+	margin-left: 600px;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e1/Chemicals_in_flasks.jpg");
+    color:white;
+}
+.fb {
+	background: url("http://files.softicons.com/download/social-media-icons/social-bookmarks-icons-by-deleket/png/48x48/Bookmark%20Icons%20Facebook.png") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.gh{
+	background: url("http://megaicons.net/static/img/icons_sizes/8/178/48/logos-github-icon.png") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.li {
+	background: url("http://files.softicons.com/download/internet-cons/social-media-icons-by-paul-robert-lloyd/png/48/linkedin.png") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.bb {
+	background: url("http://webartesanal.com/lima-soul-demo/templates/Blue/HTML/img/icon-set/48x48/icon-bitbucket.png") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
