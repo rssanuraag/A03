@@ -1,0 +1,44 @@
+<%include header%>
+   <h1> Murphee Efficency Calculator</h1>
+    <p> Murphee Efficency calculator is tool to calculate the Murphee Efficency of a Distillation column at a specific tray</p> 
+    <br>
+    <br>
+    Select tray number:<br>
+<select id="no">
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+</select>
+<br>
+<br>
+<br>
+
+     <form name="calculatex">
+        Enter equlibrium con: <input type="text" name="first" size="5"/><br><br>
+        Enter Initial con:<input type="text" name="second" size="5"/><br><br>
+         Enter final con:<input type="text" name="third" size="5"/><br><br>
+        <input type="button" value="calculate" onclick="calculate();"/><br><br>
+        Murphee Efficency of the column at selected tray is:<input type="text" name="result" id="result" size="5"/>
+    </form>
+    
+<script type="text/javascript">
+      function calculate(){
+                var a = document.calculatex.first.value;
+        var b = document.calculatex.second.value;
+var d = document.calculatex.third.value;
+        var e = parseInt(b)-parseInt(d);
+var f= parseInt(a)-parseInt(d)
+var c=parseInt(e)/parseInt(f)
+        document.calculatex.result.value= c;
+     }
+     </script>
+     
+</form>
+<%include footer%>
